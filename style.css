@@ -1,0 +1,43 @@
+/* Centering Code */
+h1 {
+	text-align: center;
+	font-size: 100px;
+}
+
+/* Arrow styling */
+.arrow-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.arrow-line {
+	width: 4px;
+	height: 100px; /* Length of the vertical line */
+	background-color: #2e475d; /* Color of the line */
+}
+
+.arrow-head {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #2e475d; /* Color of the arrowhead */
+	margin-top: -2px; /* To connect the arrowhead with the line */
+}
+
+h2 {
+	text-align: center;
+	font-size: 100px;
+	display: none; /* Hiding the <h2> by default */
+}
+
+/* Styling */
+body {
+	margin: auto;
+	width: 1200px;
+	padding: 100px;
+	font-family: 'Lexend Deca', sans-serif;
+	color: #2e475d;
+}
