@@ -32,6 +32,12 @@ h2 {
 	font-size: 100px;
 	display: none; /* Hiding the <h2> by default */
 }
+h3 {
+	text-align: center;
+	font-size: 70px;
+	
+}
+
 
 /* Styling */
 body {
